@@ -9,7 +9,7 @@ Description: Serverless api
 #        DB_URI:
 
 Resources:
-  AuctionService:
+  ServerlessService:
     Type: AWS::Serverless::Function
     Properties:
       Handler: index.handler
